@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Rubik+Gemstones&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+    *{
+    font-family: "Nanum Gothic", sans-serif;
+}
+body{
+    background-image: url(./WhatsApp\ Image\ 2024-02-25\ at\ 11.28.47.jpeg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    text-transform: uppercase;
+}
+</style>
+<script src="https://cdn.tailwindcss.com"></script>
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body class="text-white">
+    <div class="h-screen flex items-center justify-center">
+    <div
+    class="bg-black bg-opacity-60 backdrop-blur-lg px-8 py-10 rounded-md border">
+        <h2 class="txt-3xl text-center mb-5 font-semibold">Login</h2>
+        
+        <div class="flex items-center border-b mb-3">
+            <input type="email" placeholder="enter email"
+             class="py-2 outline-none bg-inherit w-64">
+             <i class="ri-mail-line text-gray-400"></i>
+        </div>
+
+        <div class="flex items-center border-b mb-3">
+            <input type="password" placeholder="enter password"
+             class="py-2 outline-none bg-inherit w-64">
+             <i class="ri-lock-line text-gray-400"></i>
+        </div>
+      
+        <div class="flex items-center justify-between text-xs mb-6">
+            <div class="flex items-center gap-1">
+                <input type="checkbox"> <p>Remember password</p>
+            </div>
+           <a href="#" class="text-blue-500">forget password?</a>
+        </div>
+        <div class="bg-white hover:bg-gray-400 rounded-md text-black py-1 text-center mb-5 font-semibold">Login</div>
+    <div class="text-se text-center">don't have an account? <a href="#"
+        class="text-blue-500">Register</a></div>
+    </div>
+    </div>
+    
+    </div>
+</body>
+</html>
